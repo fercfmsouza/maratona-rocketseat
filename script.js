@@ -1,23 +1,23 @@
 const respostas = [
-  'Certeza!',
-  'Não tenho tanta certeza.',
-  'É decididamente assim.',
-  'Não conte com isso.',
-  'Sem dúvidas!',
-  'Pergunte novamente mais tarde.',
-  'Sim, definitivamente!',
-  'Minha resposta é não.',
-  'Você pode contar com isso.',
-  'Melhor não te dizer agora.',
-  'A meu ver, sim.',
-  'Minhas fontes dizem não.',
-  'Provavelmente.',
-  'Não é possível prever agora.',
-  'Perspectiva boa.',
-  'As perspectivas não são tão boas.',
-  'Sim.',
-  'Concentre-se e pergunte novamente.',
-  'Sinais apontam que sim.',
+  'Certainty!',
+  "I'm not so sure.",
+  'It is decidedly so.',
+  'Do not count on it.',
+  'No doubt!',
+  'Ask again later.',
+  'Yes, definitely!',
+  'My answer is no.',
+  'You can count on it.',
+  'Better not tell you now.',
+  'As I see it, yes.',
+  'My sources say no.',
+  'Probably.',
+  "Can't predict now.",
+  'Good outlook.',
+  'Prospects are not so good.',
+  'Yeah.',
+  'Concentrate and ask again.',
+  'Signs point to yes.',
 ];
 
 const resultado = document.querySelector('#resposta');
@@ -27,7 +27,7 @@ const buttonPerguntar = document.querySelector('#buttonPerguntar');
 //clicar em fazer pergunta
 function fazerPergunta() {
   if (inputPergunta.value == '') {
-    alert('Digite sua pergunta.');
+    alert('Type your question.');
     return;
   }
   buttonPerguntar.setAttribute('disabled', true);
